@@ -61,10 +61,10 @@ class UNotion:
             multi_select.append({"name": tag})
         return {
             "type": "rich_text",
-            "rich_text": {
+            "rich_text": [{
                 "type": "text",
                 "text": {
                     "content": "Ola mundo"
                 }
-            }
+            }]
         }
