@@ -64,7 +64,7 @@ class UNotion:
             "rich_text": [{
                 "type": "text",
                 "text": {
-                    "content": tags
+                    "content": tags[0]
                 }
             }]
         }
